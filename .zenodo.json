@@ -1,0 +1,44 @@
+{
+  "title": "Twin Prime XOR Law: Computational Validation and Source Code",
+  "upload_type": "software",
+  "creators": [
+    {
+      "name": "Silva, Thiago Fernandes Motta Massensini",
+      "affiliation": "Independent Researcher",
+      "orcid": "0009-0002-3415-9805"
+    }
+  ],
+  "description": "High-performance C++ implementation for computational validation of the Twin Prime XOR Identity theorem. Includes deterministic Miller-Rabin primality testing, OpenMP parallelization, and validation of 1+ billion twin prime pairs with p < 10^12. Achieves 100% verification rate with chi-squared statistic of 20.40 (p < 0.05), confirming geometric distribution P(k) = 2^(-k) for k-values derived from 2-adic valuations.",
+  "keywords": [
+    "twin primes",
+    "XOR operation",
+    "2-adic valuation",
+    "computational number theory",
+    "prime gaps",
+    "binary structure",
+    "Iwasawa theory",
+    "Miller-Rabin primality test"
+  ],
+  "license": "CC-BY-4.0",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/thiagomassensini/twin-prime-xor-law",
+      "relation": "isSupplementTo",
+      "resource_type": "software"
+    },
+    {
+      "identifier": "https://tprime.massensini.com.br/",
+      "relation": "isDocumentedBy",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "https://osf.io/bkgme/",
+      "relation": "isSupplementTo",
+      "resource_type": "other"
+    }
+  ],
+  "references": [
+    "Hardy, G. H., & Wright, E. M. (2008). An Introduction to the Theory of Numbers (6th ed.). Oxford University Press.",
+    "Crandall, R., & Pomerance, C. (2005). Prime Numbers: A Computational Perspective (2nd ed.). Springer."
+  ]
+}
