@@ -22,7 +22,7 @@
   "license": "CC-BY-4.0",
   "related_identifiers": [
     {
-      "identifier": "https://github.com/thiagomassensini/twin-prime-xor-law",
+      "identifier": "https://github.com/thiagomassensini/twin-prime-xor-law-v2",
       "relation": "isSupplementTo",
       "resource_type": "software"
     },

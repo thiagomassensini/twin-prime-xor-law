@@ -11,7 +11,10 @@ gitignore/
 *.synctex.gz
 *.fdb_latexmk
 *.fls
+
+# Ignore all PDFs except XOR_LAW.pdf
 *.pdf
+!XOR_LAW.pdf
 
 # Editor/IDE files
 .vscode/
